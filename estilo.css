@@ -1,0 +1,166 @@
+* {
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+body,input,textarea{
+    font-family: 'roboto', sans-serif;
+
+}
+
+
+header{
+    padding: 16px 0;
+    background-color: #182c61;
+    color: #ecf0f1;
+}
+
+header,
+section h2,
+section h3,
+form button{
+    font-family: 'bungee',cursive;
+    font-weight: normal;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px ;
+}
+
+header nav li a{
+    color:#ecf0f1 ;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner{
+    position: relative;
+}
+
+.banner .fotobanner{
+    height: 500px;
+    width: 800px;
+    max-width: 100%;
+    padding: 20px;
+    position: absolute;
+    left:720px;
+    top:10px   
+}
+
+.minhafoto{
+    height: 300px;
+}
+
+
+.container .conteudoexp{
+    position: absolute;
+    display: inline;
+    padding-left: 20px;
+}
+
+.luban{
+    height: 350px;
+    padding-bottom: 50px;
+}
+
+.container-personagem{
+    position: relative;
+}
+
+.container-personagem p{
+    position: absolute;
+    top:30px;
+    left: 690px;
+}
+
+.container-video{
+    position: relative;
+}
+
+.gameplayer{
+    height: 369px;
+}
+
+.container-video .textogp{
+    position:absolute;
+    top: 10px;
+    left: 690px;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+form button{
+    background-color: #182c61;
+    color: #ecf0f1 ;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #3b5394;
+}
+
+input:focus , textarea:focus{
+    outline-color: #182c61;
+}
+
+.social-links img{
+    height: 44px;
+}
+
+.social-links li{
+    display: inline;
+    margin-right: 8px;
+}
+
+.falecomigo{
+    position: relative;
+}
+
+.redessociais{
+    position: absolute;
+    top: 50px;
+    right: 100px;
+}
+
+footer{
+    background-color: #182c61;
+    color: #ecf0f1 ;
+    padding: 16px 0;
+}
+
+
+
+
+
+
+
+
+
